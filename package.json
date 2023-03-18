@@ -5,12 +5,9 @@
   "main": "index.js",
   "scripts": {
      "dev": "nodemon index.js",
-     "railway-start": "node index.js",
      "prebuild": "npm install",
      "build": "npm run build-server && npm run build-client",
-     "build-server": "echo 'Nothing to build for the server'",
-     "build-client": "echo 'Nothing to build for the client'",
-     "prestart": "npm run build",
+     "prebuild": "npm run build",
      "start": "node index.js",
      "test": "echo 'No tests available'"
   },
