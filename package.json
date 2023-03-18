@@ -2,10 +2,10 @@
   "name": "jtvserver",
   "version": "1.0.0",
   "description": "jiotv server to live tv in the web or in any device",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start":"nodemon src/server.js",
-    "docker:build": "docker build -f ./docker/Dockerfile ."
+    "dev": "nodemon index.js",
+    "start": "npm index.js"
   },
   "author": "",
   "license": "ISC",
